@@ -12,5 +12,5 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs mkdocs-include-markdown-plugin mkdocs-mermaid2-plugin neoteroi-mkdocs
-      - run: mkdocs build --clean
+      - run: mkdocs build 
       - run: mkdocs gh-deploy --force
