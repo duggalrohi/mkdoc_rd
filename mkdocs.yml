@@ -31,4 +31,4 @@ extra_css:
 extra_javascript:
   - https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js
 
-site_url: https://localhost
+site_url: http://127.0.0.1:8000/
