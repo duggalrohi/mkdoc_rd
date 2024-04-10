@@ -8,7 +8,7 @@ nav:
   # Add more navigation items as needed
 
 theme:
-  name: material
+  name: readthedocs 
 
 plugins:
   - search
