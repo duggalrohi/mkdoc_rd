@@ -1,0 +1,34 @@
+site_name: Test personal webpage
+nav:
+  - Overview: 'index.html'
+theme: readthedocs
+markdown_extensions:
+  - toc:
+      permalink: True
+      baselevel: 1
+      toc_depth: 3
+  - footnotes
+  - pymdownx.superfences:
+      # make exceptions to highlighting of code:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+  - codehilite
+  - attr_list
+  - md_in_html
+  - neoteroi.cards
+
+plugins:
+  - search
+  - include-markdown
+  - mermaid2
+
+extra_css: 
+  - extra.css
+  - css/neoteroi-mkdocs.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js
+
+site_url: https://localhost
