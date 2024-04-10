@@ -1,6 +1,6 @@
 site_name: Test personal webpage
-nav:
-  - Overview: 'index.html'
+  #nav:
+  #- Overview: 'index.html'
 theme: readthedocs
 markdown_extensions:
   - toc:
