@@ -1,35 +1,16 @@
-site_name: Test personal webpage
-docs_dir: site
-  #nav:
-  #- Overview: 'index.html'
-theme: readthedocs
-markdown_extensions:
-  - toc:
-      permalink: True
-      baselevel: 1
-      toc_depth: 3
-  - footnotes
-  - pymdownx.superfences:
-      # make exceptions to highlighting of code:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
-  - codehilite
-  - attr_list
-  - md_in_html
-  - neoteroi.cards
+site_name: My MkDocs Site
+docs_dir: docs  # Directory containing your source documentation files
+site_dir: site  # Directory where the generated HTML site will be placed
+
+nav:
+  - Home: index.md
+  - About: about.md
+  # Add more navigation items as needed
+
+theme:
+  name: material
 
 plugins:
   - search
-  - include-markdown
-  - mermaid2
+  # Add more plugins as needed
 
-extra_css: 
-  - extra.css
-  - css/neoteroi-mkdocs.css
-
-extra_javascript:
-  - https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js
-
-site_url: http://127.0.0.1:8000/
