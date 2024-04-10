@@ -4,7 +4,7 @@ site_dir: site  # Directory where the generated HTML site will be placed
 
 nav:
   - Home: index.md
-  - About: about.md
+    #- About: about.md
   # Add more navigation items as needed
 
 theme:
