@@ -1,4 +1,5 @@
 site_name: Test personal webpage
+docs_dir: site
   #nav:
   #- Overview: 'index.html'
 theme: readthedocs
